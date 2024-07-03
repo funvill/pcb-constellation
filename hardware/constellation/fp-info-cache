@@ -1,4 +1,4 @@
-23623057444095197
+23617899910027385
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88711,13 +88711,6 @@ LED RGB ARGB
 4
 4
 SWS-Library
-dfg
-
-
-0
-0
-0
-SWS-Library
 hexagon_corner
 
 
@@ -88732,21 +88725,7 @@ mouse-bite-2mm-slot_1
 0
 0
 SWS-Library
-mouse-bite-2mm-slot_Corner
-
-
-0
-0
-0
-SWS-Library
-mouse-bite-2mm-slot_Edge
-
-
-0
-0
-0
-SWS-Library
-mouse-bite-2mm-slot_Hex
+mouse-bite-2mm-slot_edge
 
 
 0
