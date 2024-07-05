@@ -1,4 +1,4 @@
-23617900574441561
+23623060969097133
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88676,6 +88676,13 @@ capacitor
 2
 2
 SWS-Library
+PinHeader_1x03_P2.54mm_Vertical
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+SWS-Library
 SWS-TestPoint-Bug-SM-10mm
 
 
@@ -88710,6 +88717,20 @@ LED RGB ARGB
 0
 4
 4
+SWS-Library
+constellation-edge-connector
+
+
+0
+30
+4
+SWS-Library
+constellation-edge-connector_HOLES
+
+
+0
+6
+1
 SWS-Library
 hexagon_corner
 
