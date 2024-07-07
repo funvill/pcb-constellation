@@ -202,6 +202,142 @@
 				)
 			)
 		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "__easyeda2kicad:XL-1010RGBC-WS2812B"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -340,6 +476,138 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "__sws_jlpcb:R0"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R2"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R0"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110251730_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C17168"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.0254 0.0254)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.0254 0.0254)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFGPN" "0402WGF0000TCE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.0254 0.0254)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R0_0_0"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
 							)
 						)
 					)
@@ -653,6 +921,12 @@
 		(uuid "00364285-1ef4-4aa3-b5d8-f8e40aca62b3")
 	)
 	(junction
+		(at 63.5 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01ac9abc-5179-4d78-a9ec-dba796fca30b")
+	)
+	(junction
 		(at 280.67 589.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -795,6 +1069,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d841a97-8b5a-40e2-b2a4-9e8307dd5ead")
+	)
+	(junction
+		(at 66.04 421.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0db61360-7cc8-46fb-b468-5217b7b02020")
 	)
 	(junction
 		(at 363.22 574.04)
@@ -953,6 +1233,12 @@
 		(uuid "19b273bd-5e70-4863-96cf-208725460321")
 	)
 	(junction
+		(at 66.04 275.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19fa8ce8-8ac4-415f-81c3-eeaa26746587")
+	)
+	(junction
 		(at 363.22 478.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1007,6 +1293,12 @@
 		(uuid "1ce6c4b2-be82-4e7d-8857-c6a34e92b124")
 	)
 	(junction
+		(at 64.77 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cf6d6d1-f266-4b5a-87fc-d3d33e3ed3f9")
+	)
+	(junction
 		(at 173.99 281.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1059,6 +1351,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "217f5b33-8e70-43ba-948c-230f5c2b4b35")
+	)
+	(junction
+		(at 66.04 302.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22720ddd-d7f3-409b-a086-6695df05d054")
 	)
 	(junction
 		(at 452.12 317.5)
@@ -1265,6 +1563,12 @@
 		(uuid "32f4d470-817c-4341-bbe1-1a70a78c5198")
 	)
 	(junction
+		(at 66.04 368.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33546821-2fd3-4cf5-9a26-2e0860a2a6c8")
+	)
+	(junction
 		(at 452.12 368.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1347,6 +1651,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39440f98-fa44-4fe5-b6a7-e42dac08e38c")
+	)
+	(junction
+		(at 66.04 429.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3958cfda-e75e-4804-89b9-0a4e1d4e9dd7")
 	)
 	(junction
 		(at 264.16 182.88)
@@ -1499,6 +1809,12 @@
 		(uuid "442f1c86-09bf-485a-bb55-e3dca7807d87")
 	)
 	(junction
+		(at 66.04 508)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "443e8584-87b5-48cd-8400-87215f912f87")
+	)
+	(junction
 		(at 227.33 307.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1557,6 +1873,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47840676-6faa-4a42-940d-f7101dd74d20")
+	)
+	(junction
+		(at 66.04 609.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47fd146c-d4b1-4a1a-accc-f64d97dca2c5")
 	)
 	(junction
 		(at 401.32 40.64)
@@ -1727,6 +2049,12 @@
 		(uuid "56b6985a-5769-46d6-b97e-bdd19086c3a6")
 	)
 	(junction
+		(at 62.23 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56ca0ee4-bd2a-479a-b7cc-2eacd384ba98")
+	)
+	(junction
 		(at 381 506.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1823,6 +2151,12 @@
 		(uuid "61c87b77-7559-42e7-b896-0923a7c325a2")
 	)
 	(junction
+		(at 66.04 317.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61dce867-0e65-427c-86ed-1e0af8417cf9")
+	)
+	(junction
 		(at 245.11 521.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1875,6 +2209,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68908c8d-3f17-46c9-a695-2dcb25dd84eb")
+	)
+	(junction
+		(at 66.04 576.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "691a72d5-7a8e-4255-a911-c7e5c27292b2")
 	)
 	(junction
 		(at 336.55 81.28)
@@ -2063,6 +2403,12 @@
 		(uuid "77feaffc-edc0-48e6-b97f-7fe4e12a8c9c")
 	)
 	(junction
+		(at 66.04 515.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7848ee5d-785c-42bc-8096-486cdec40d2d")
+	)
+	(junction
 		(at 209.55 281.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2097,6 +2443,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c51f80f-776e-4e76-bbe2-3039ce24a486")
+	)
+	(junction
+		(at 66.04 325.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ca3a00d-5d49-4e9f-8ee1-3ca95b77f686")
 	)
 	(junction
 		(at 173.99 355.6)
@@ -2261,6 +2613,12 @@
 		(uuid "88e1412a-9deb-4cf3-9531-c7c27427b0c7")
 	)
 	(junction
+		(at 66.04 452.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89b39007-004b-45ef-b877-8a5e82a83586")
+	)
+	(junction
 		(at 204.47 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2283,6 +2641,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c65f3b0-1e9b-46dc-be55-681d143b4d5b")
+	)
+	(junction
+		(at 62.23 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c9d7194-049a-4656-9501-edaf22bc6ab1")
 	)
 	(junction
 		(at 369.57 435.61)
@@ -2489,6 +2853,12 @@
 		(uuid "9f0f48c1-30c1-43a6-a2c2-66c3ea242803")
 	)
 	(junction
+		(at 64.77 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f6003e6-5dba-4dea-9204-e6255c67c788")
+	)
+	(junction
 		(at 152.4 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2505,6 +2875,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0526019-4eb1-4b80-bf30-da74a3ee3fba")
+	)
+	(junction
+		(at 66.04 459.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a074342c-0f5d-4a90-bbff-6f71d3b1370a")
 	)
 	(junction
 		(at 405.13 521.97)
@@ -2529,6 +2905,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a11783a4-eeae-458b-9f0e-528ccf00371e")
+	)
+	(junction
+		(at 63.5 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a170b982-689d-4543-bda2-4e45699b44cb")
 	)
 	(junction
 		(at 316.23 383.54)
@@ -2573,6 +2955,12 @@
 		(uuid "a4bf79bd-f896-47f6-9907-98814985f404")
 	)
 	(junction
+		(at 64.77 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a505979a-c26f-4009-9be0-9ad6cc7ba1ba")
+	)
+	(junction
 		(at 238.76 317.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2607,6 +2995,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6d6be90-7a26-45e8-9286-3d91a8fadba4")
+	)
+	(junction
+		(at 64.77 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7abecad-89de-4caa-8db9-53197b391846")
 	)
 	(junction
 		(at 228.6 182.88)
@@ -2727,6 +3121,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b125b10d-facf-4f64-92b3-cf7ccfa84b61")
+	)
+	(junction
+		(at 66.04 342.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b18dec4c-b347-4ded-9637-95a43dd76172")
 	)
 	(junction
 		(at 387.35 307.34)
@@ -2927,6 +3327,12 @@
 		(uuid "be494ca0-2d04-40cf-9413-6acf44c2a5eb")
 	)
 	(junction
+		(at 66.04 487.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf081c49-96fc-4623-8813-30437486a9d7")
+	)
+	(junction
 		(at 363.22 317.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2943,6 +3349,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bffff72f-8712-4c29-a83f-10464a68072d")
+	)
+	(junction
+		(at 62.23 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c006a376-a9a4-4a8d-a613-b41041b65f18")
 	)
 	(junction
 		(at 363.22 368.3)
@@ -2987,6 +3399,12 @@
 		(uuid "c25f2fa1-a5b3-4ae2-9bfe-c23b1366a1a9")
 	)
 	(junction
+		(at 62.23 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c297816f-ac8a-45e5-b72c-546c3fd45508")
+	)
+	(junction
 		(at 274.32 449.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3005,10 +3423,22 @@
 		(uuid "c36601dc-2b7a-4df8-80a2-e3fb1901a63d")
 	)
 	(junction
+		(at 66.04 350.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3e6c9a8-3985-42f9-863b-fd2516b01df4")
+	)
+	(junction
 		(at 351.79 355.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c429062c-ade2-450a-9def-e4c7cc58c847")
+	)
+	(junction
+		(at 62.23 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c56a75a1-c689-4a48-a980-7318fb4a6f73")
 	)
 	(junction
 		(at 227.33 383.54)
@@ -3095,6 +3525,12 @@
 		(uuid "cb3017bc-5660-4805-ad14-21c0531a2a71")
 	)
 	(junction
+		(at 66.04 375.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccc7a2f1-60df-41fc-82a7-47955c51decb")
+	)
+	(junction
 		(at 381 266.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3111,6 +3547,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd3fceea-d0ed-4bd6-a659-3b6913c843e4")
+	)
+	(junction
+		(at 66.04 294.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd63ed3c-d8ef-4718-b09e-04908b8af735")
 	)
 	(junction
 		(at 364.49 135.89)
@@ -3147,6 +3589,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d15a1141-b233-4c85-b386-c4c135143696")
+	)
+	(junction
+		(at 66.04 601.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2593416-bb17-4e90-9801-1d6ec824a36a")
 	)
 	(junction
 		(at 238.76 266.7)
@@ -3221,6 +3669,12 @@
 		(uuid "d813ab8c-8e0a-4294-8380-ebec14d457ac")
 	)
 	(junction
+		(at 66.04 548.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d87943f6-e342-4b73-8629-13d75493c8bd")
+	)
+	(junction
 		(at 293.37 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3275,6 +3729,12 @@
 		(uuid "de08eac3-1ddc-4f5c-acf3-b66de58c577c")
 	)
 	(junction
+		(at 66.04 480.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de422bc2-eb29-478a-8c25-4b99c08e4507")
+	)
+	(junction
 		(at 203.2 340.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3285,6 +3745,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfb082ed-1aab-4323-b280-29a3e26ce225")
+	)
+	(junction
+		(at 62.23 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0864b76-b761-4959-a300-43607d349e3b")
 	)
 	(junction
 		(at 220.98 574.04)
@@ -3309,6 +3775,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3183249-2aff-4895-82ee-f315806d1a96")
+	)
+	(junction
+		(at 66.04 556.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e48594af-7a7f-4b50-b391-5fe6313b52d4")
 	)
 	(junction
 		(at 204.47 223.52)
@@ -3449,6 +3921,12 @@
 		(uuid "f1b62a5b-9525-42d7-9dac-a6177de5195d")
 	)
 	(junction
+		(at 64.77 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f21c9e2b-c878-4c91-becb-772ec6cadc9b")
+	)
+	(junction
 		(at 209.55 464.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3495,6 +3973,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4a15cfc-ade1-4e8d-8cff-48c0c0462fd7")
+	)
+	(junction
+		(at 66.04 584.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4bca362-c6bd-4db8-8d2f-c95f85cc94b0")
 	)
 	(junction
 		(at 369.57 494.03)
@@ -3545,10 +4029,22 @@
 		(uuid "fa056d40-4b39-43bb-9a73-5b9832d005ab")
 	)
 	(junction
+		(at 64.77 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa8ea3de-ad48-4f29-bccd-1f4e2bd16df7")
+	)
+	(junction
 		(at 298.45 494.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb1e5092-0e81-4cdc-9497-4515185a4bb2")
+	)
+	(junction
+		(at 66.04 267.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb3b45c6-06ea-4021-aede-837c1282d793")
 	)
 	(junction
 		(at 387.35 383.54)
@@ -3672,6 +4168,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 43.18) (xy 72.39 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00df0e3d-74d5-414b-af50-780b1a74a77a")
+	)
+	(wire
+		(pts
 			(xy 161.29 231.14) (xy 163.83 231.14)
 		)
 		(stroke
@@ -3719,6 +4225,16 @@
 			(type default)
 		)
 		(uuid "0208ea45-cb09-4228-8e00-240057d9211f")
+	)
+	(wire
+		(pts
+			(xy 66.04 609.6) (xy 76.2 609.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "020ab6c4-bd1d-4140-b9fe-08de3be1fe94")
 	)
 	(wire
 		(pts
@@ -3829,6 +4345,16 @@
 			(type default)
 		)
 		(uuid "0477f3cf-9aea-482c-a97a-d387ac8530aa")
+	)
+	(wire
+		(pts
+			(xy 66.04 368.3) (xy 76.2 368.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049286ff-22c8-48d6-81dd-18fd706c1a6f")
 	)
 	(wire
 		(pts
@@ -4332,6 +4858,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 508) (xy 76.2 508)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f37e1cd-3623-4cd6-86b9-f94f9f5fd46d")
+	)
+	(wire
+		(pts
 			(xy 203.2 340.36) (xy 220.98 340.36)
 		)
 		(stroke
@@ -4439,6 +4975,16 @@
 			(type default)
 		)
 		(uuid "15346a85-f77d-4728-aa11-708ba8c8ebce")
+	)
+	(wire
+		(pts
+			(xy 64.77 170.18) (xy 74.93 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1538917f-9366-40e6-96d7-b24cbe209e02")
 	)
 	(wire
 		(pts
@@ -4559,6 +5105,16 @@
 			(type default)
 		)
 		(uuid "187308a1-644a-4965-9dec-810f9630afb4")
+	)
+	(wire
+		(pts
+			(xy 63.5 144.78) (xy 73.66 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1924287a-f993-4d5e-bdcb-f7cb0f783b72")
 	)
 	(wire
 		(pts
@@ -5322,6 +5878,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 137.16) (xy 73.66 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c8a32c-fdfe-4e83-8ec7-e1a7d277a54f")
+	)
+	(wire
+		(pts
 			(xy 227.33 383.54) (xy 245.11 383.54)
 		)
 		(stroke
@@ -5439,6 +6005,16 @@
 			(type default)
 		)
 		(uuid "3aed06bd-6767-4575-a280-3f5d0f95afda")
+	)
+	(wire
+		(pts
+			(xy 64.77 204.47) (xy 74.93 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c0a043d-e5d9-44c8-b363-ee3b6c5ee502")
 	)
 	(wire
 		(pts
@@ -5672,6 +6248,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 342.9) (xy 76.2 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "454460a1-b45e-4486-8882-84e639e44e1a")
+	)
+	(wire
+		(pts
 			(xy 284.48 427.99) (xy 287.02 427.99)
 		)
 		(stroke
@@ -5679,6 +6265,16 @@
 			(type default)
 		)
 		(uuid "461c55e0-c59e-4428-ba43-0e4dcdcd5a97")
+	)
+	(wire
+		(pts
+			(xy 66.04 302.26) (xy 76.2 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46308444-ddb8-4ad8-b135-ad7545561a92")
 	)
 	(wire
 		(pts
@@ -6192,6 +6788,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 480.06) (xy 76.2 480.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5692f9f7-a8de-48fa-b449-f18e6ba464fe")
+	)
+	(wire
+		(pts
 			(xy 405.13 307.34) (xy 422.91 307.34)
 		)
 		(stroke
@@ -6442,6 +7048,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 584.2) (xy 76.2 584.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ea1e6bd-5bd2-4af5-a8d5-033472b29ede")
+	)
+	(wire
+		(pts
 			(xy 186.69 223.52) (xy 204.47 223.52)
 		)
 		(stroke
@@ -6652,6 +7268,26 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 67.31) (xy 72.39 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699f1731-e39e-46c5-be15-8f221d617a61")
+	)
+	(wire
+		(pts
+			(xy 64.77 177.8) (xy 74.93 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a1d6104-f914-4ff1-b983-b89e5cb2eba2")
+	)
+	(wire
+		(pts
 			(xy 381 368.3) (xy 398.78 368.3)
 		)
 		(stroke
@@ -6699,6 +7335,16 @@
 			(type default)
 		)
 		(uuid "6c1b16aa-72f3-4c37-8497-822ff3e5c347")
+	)
+	(wire
+		(pts
+			(xy 64.77 224.79) (xy 74.93 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c88fc6a-8e83-4c18-a3da-5ed4af88c576")
 	)
 	(wire
 		(pts
@@ -6822,6 +7468,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 317.5) (xy 76.2 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f416f2b-371e-45af-9a5a-f627fa89bc09")
+	)
+	(wire
+		(pts
 			(xy 177.8 299.72) (xy 180.34 299.72)
 		)
 		(stroke
@@ -6869,6 +7525,16 @@
 			(type default)
 		)
 		(uuid "7191c7fd-3d2e-4c25-b14a-17f23126b41c")
+	)
+	(wire
+		(pts
+			(xy 66.04 452.12) (xy 76.2 452.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e493b9-b46f-4107-88f1-1d0f6f3fe149")
 	)
 	(wire
 		(pts
@@ -7159,6 +7825,16 @@
 			(type default)
 		)
 		(uuid "7b7a4015-667a-4a17-87ee-922edfedcfa4")
+	)
+	(wire
+		(pts
+			(xy 64.77 196.85) (xy 74.93 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bd2c2a3-bc37-4281-a97b-f5daf7bf50f3")
 	)
 	(wire
 		(pts
@@ -7482,6 +8158,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 515.62) (xy 76.2 515.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "852253e3-e7d8-4283-a895-6b7440e7a2f4")
+	)
+	(wire
+		(pts
 			(xy 337.82 514.35) (xy 340.36 514.35)
 		)
 		(stroke
@@ -7622,6 +8308,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 275.59) (xy 76.2 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "898c350c-9df9-492f-9d16-909063f7ebca")
+	)
+	(wire
+		(pts
 			(xy 210.82 106.68) (xy 228.6 106.68)
 		)
 		(stroke
@@ -7639,6 +8335,16 @@
 			(type default)
 		)
 		(uuid "8a2249be-3035-4a7f-a9d8-9c00b443e341")
+	)
+	(wire
+		(pts
+			(xy 66.04 601.98) (xy 76.2 601.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a2b6e3c-1fb4-4f06-9801-76ad032fa79a")
 	)
 	(wire
 		(pts
@@ -8022,6 +8728,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 429.26) (xy 76.2 429.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "941e0b2a-72ff-4bd5-9b09-63966b9ac2b8")
+	)
+	(wire
+		(pts
 			(xy 168.91 195.58) (xy 186.69 195.58)
 		)
 		(stroke
@@ -8029,6 +8745,16 @@
 			(type default)
 		)
 		(uuid "94e95caf-ac92-40bf-afcc-bc54e38e7121")
+	)
+	(wire
+		(pts
+			(xy 66.04 556.26) (xy 76.2 556.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9607017b-5cf6-4dad-ad59-f814c6b9b594")
 	)
 	(wire
 		(pts
@@ -8109,6 +8835,16 @@
 			(type default)
 		)
 		(uuid "983f3e98-fed2-4708-895d-6d939e70baf7")
+	)
+	(wire
+		(pts
+			(xy 66.04 487.68) (xy 76.2 487.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "987a9fad-e651-4586-8ee4-7ad8928dd162")
 	)
 	(wire
 		(pts
@@ -8249,6 +8985,16 @@
 			(type default)
 		)
 		(uuid "9bf782b4-21a7-452e-a82d-29ca6362b063")
+	)
+	(wire
+		(pts
+			(xy 62.23 74.93) (xy 72.39 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c01f579-31ba-4c89-b0ae-508b0b147838")
 	)
 	(wire
 		(pts
@@ -8502,6 +9248,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 267.97) (xy 76.2 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ef841c-4094-483a-8b6e-4359b3572818")
+	)
+	(wire
+		(pts
 			(xy 274.32 506.73) (xy 292.1 506.73)
 		)
 		(stroke
@@ -8519,6 +9275,16 @@
 			(type default)
 		)
 		(uuid "a36f65e3-78c2-4f84-8057-973b0a024b0e")
+	)
+	(wire
+		(pts
+			(xy 66.04 548.64) (xy 76.2 548.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a382cb7e-1215-423c-bbeb-4dc7f2763dbf")
 	)
 	(wire
 		(pts
@@ -9122,6 +9888,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 576.58) (xy 76.2 576.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b88415b8-44de-4a70-acec-914dde374c14")
+	)
+	(wire
+		(pts
 			(xy 160.02 274.32) (xy 162.56 274.32)
 		)
 		(stroke
@@ -9369,6 +10145,16 @@
 			(type default)
 		)
 		(uuid "c42d3b09-f141-43f8-9279-1b5551b49fec")
+	)
+	(wire
+		(pts
+			(xy 64.77 232.41) (xy 74.93 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c51bcd4d-181a-49f6-b1bf-d4d99a451940")
 	)
 	(wire
 		(pts
@@ -10052,6 +10838,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 90.17) (xy 72.39 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da174411-8ecb-4197-a812-acb9442762fa")
+	)
+	(wire
+		(pts
 			(xy 444.5 325.12) (xy 447.04 325.12)
 		)
 		(stroke
@@ -10242,6 +11038,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 97.79) (xy 72.39 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e181126d-9f1a-4a75-b279-f725ed81f3c1")
+	)
+	(wire
+		(pts
 			(xy 334.01 281.94) (xy 351.79 281.94)
 		)
 		(stroke
@@ -10362,6 +11168,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 350.52) (xy 76.2 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5797012-ce4a-4472-a14e-9c6b964552d7")
+	)
+	(wire
+		(pts
 			(xy 391.16 325.12) (xy 393.7 325.12)
 		)
 		(stroke
@@ -10409,6 +11225,16 @@
 			(type default)
 		)
 		(uuid "e6d0afac-7576-4916-99f1-e2d33950d70a")
+	)
+	(wire
+		(pts
+			(xy 66.04 459.74) (xy 76.2 459.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f2f5f5-350a-4e9b-8389-6a3bcc27aa9d")
 	)
 	(wire
 		(pts
@@ -10652,6 +11478,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 375.92) (xy 76.2 375.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee61557b-1a6a-494f-97e4-2272ee09a943")
+	)
+	(wire
+		(pts
 			(xy 284.48 514.35) (xy 287.02 514.35)
 		)
 		(stroke
@@ -10679,6 +11515,16 @@
 			(type default)
 		)
 		(uuid "efa42dd1-bdce-4501-8d95-b324dd955c46")
+	)
+	(wire
+		(pts
+			(xy 66.04 421.64) (xy 76.2 421.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb84313-26c3-4b9a-988b-db0ebe21fd58")
 	)
 	(wire
 		(pts
@@ -10772,6 +11618,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 325.12) (xy 76.2 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f530f39d-c57a-4b7c-880c-132cb6bc45e3")
+	)
+	(wire
+		(pts
 			(xy 214.63 231.14) (xy 217.17 231.14)
 		)
 		(stroke
@@ -10779,6 +11635,16 @@
 			(type default)
 		)
 		(uuid "f5c911c4-21f1-4b02-8d46-ecc68ebe75ae")
+	)
+	(wire
+		(pts
+			(xy 62.23 50.8) (xy 72.39 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f66f97fd-ac50-4ac7-baf0-420803a55dca")
 	)
 	(wire
 		(pts
@@ -10959,6 +11825,16 @@
 			(type default)
 		)
 		(uuid "fe20b7d6-ee8d-4539-a4e7-5bd362ce44b2")
+	)
+	(wire
+		(pts
+			(xy 66.04 294.64) (xy 76.2 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe46f423-3f90-4bf3-b269-23c9470fba0f")
 	)
 	(wire
 		(pts
@@ -12901,6 +13777,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 76.2 552.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "02773847-3955-486e-92e3-2fc4e22ec26c")
+		(property "Reference" "C34"
+			(at 76.708 550.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 72.136 554.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 77.1652 556.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 76.2 552.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 76.2 552.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 76.2 552.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "476d524f-a758-4052-a54c-b88ffa499a7f")
+		)
+		(pin "1"
+			(uuid "95ff7e5e-f4a1-4646-81ac-ec7e0d7aeef2")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "__easyeda2kicad:XL-1010RGBC-WS2812B")
 		(at 241.3 581.66 0)
 		(unit 1)
@@ -12977,6 +13931,72 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "U252")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03326062-fc35-40b4-89ef-41bae6c9843d")
+		(property "Reference" "#PWR0104"
+			(at 57.15 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 61.214 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1918d623-851d-4307-bc9e-982867cf0a4a")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -13207,6 +14227,72 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "U202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 64.77 232.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "059289bf-4977-43da-97b8-de10971f6f60")
+		(property "Reference" "#PWR0111"
+			(at 68.58 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 62.484 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 64.77 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5681047d-4eec-40d0-a20a-89cd4fa174b7")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -13765,6 +14851,72 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "U233")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 170.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0bdf66da-9f50-4b7c-89f9-6b545124d010")
+		(property "Reference" "#PWR0106"
+			(at 58.42 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.484 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14603600-243b-4334-9cc1-cf05ff5f5677")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -14905,6 +16057,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 66.04 511.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15e83e12-ceac-459c-8ad2-c18587eac9df")
+		(property "Reference" "C31"
+			(at 66.294 509.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 61.722 513.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 67.0052 515.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 66.04 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 66.04 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "27f5fa25-a1a4-46ba-b46c-b8df5a1c8f56")
+		)
+		(pin "1"
+			(uuid "7d69b99a-102e-40b1-a026-627a213e6a81")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 156.21 355.6 0)
 		(unit 1)
@@ -14977,7 +16207,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "17bec502-e9e2-4662-bfbb-d7a7b8d85b5b")
 		(property "Reference" "J14"
@@ -15439,6 +16669,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 64.77 224.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b57fccc-dbfb-4997-8e38-51ad274a22e8")
+		(property "Reference" "#PWR0110"
+			(at 58.42 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.484 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4aed058-dd42-4827-a138-7dee7cd0a395")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "__easyeda2kicad:XL-1010RGBC-WS2812B")
 		(at 365.76 299.72 0)
 		(unit 1)
@@ -15597,6 +16893,72 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "U221")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 576.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c8b5612-d694-4fbd-af85-2b708de9fde5")
+		(property "Reference" "#PWR0132"
+			(at 59.69 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.754 576.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54d8aab3-7a7f-49a2-9126-6b9cb2e98e8a")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -15877,6 +17239,84 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 76.2 580.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "1ee1c1e0-5214-4cf7-844d-684ac8b566e1")
+		(property "Reference" "C36"
+			(at 76.708 578.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 72.136 582.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 77.1652 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 76.2 580.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 76.2 580.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 76.2 580.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ab82e0b1-c801-496b-97c5-4add04c6459b")
+		)
+		(pin "1"
+			(uuid "0a3a409a-57a4-40b3-99bf-4ea65c2f9fb0")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -16671,6 +18111,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 66.04 552.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2551a3f5-9953-4028-818f-84d9f8567c69")
+		(property "Reference" "C33"
+			(at 66.294 550.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 61.722 554.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 67.0052 556.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 66.04 552.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 552.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 66.04 552.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e79d1ed8-bca4-4752-8c43-9ccb81d43ec8")
+		)
+		(pin "1"
+			(uuid "f5040d3b-75d5-4087-b113-7a565f850564")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "__sws_jlpcb:constellation-edge-connector_HOLE")
 		(at 88.9 270.51 180)
 		(unit 1)
@@ -16731,6 +18249,84 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "J28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 64.77 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25ad01df-d919-41ad-8c72-37e3d6052e63")
+		(property "Reference" "C13"
+			(at 65.024 226.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 60.452 230.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 65.7352 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 64.77 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 64.77 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63a70f89-5481-498c-91a7-ac376d2d3a15")
+		)
+		(pin "1"
+			(uuid "a5bfe461-4aa5-4bf2-961f-65bb5d402126")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -16967,6 +18563,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 62.23 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27b8ea3a-fcfb-4f4a-839b-bd5a901690c3")
+		(property "Reference" "#PWR0101"
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 59.944 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 62.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e135b880-97c7-450b-bd03-ec7ab570aa8b")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 91.44 604.52 90)
 		(unit 1)
@@ -17109,6 +18771,84 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "U125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 66.04 372.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28d871b6-3acd-4004-adf5-1fef6280ab9b")
+		(property "Reference" "C23"
+			(at 66.294 369.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 61.722 374.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 67.0052 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 66.04 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 66.04 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5960ed49-c047-42c1-8c7f-096be493c6f1")
+		)
+		(pin "1"
+			(uuid "b0916fa1-e412-48ca-94f1-86030957111f")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -17503,6 +19243,84 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "U248")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 64.77 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a77affe-800a-4950-a174-fce45c366492")
+		(property "Reference" "C9"
+			(at 65.024 171.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 60.452 176.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 65.7352 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 64.77 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 64.77 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2b143ad9-9868-462b-952b-ae9df5f75d4a")
+		)
+		(pin "1"
+			(uuid "92732415-f8b1-4e3e-a4f3-dd7b03e92231")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -20011,7 +21829,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3670d009-1228-49b8-8ae9-04b9f1ddac67")
 		(property "Reference" "J23"
@@ -20451,6 +22269,84 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 76.2 483.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "3d853f80-17b8-4c85-a7c2-f659e6795c89")
+		(property "Reference" "C30"
+			(at 76.708 481.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 72.136 485.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 77.1652 487.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 76.2 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 76.2 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 76.2 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "843f7810-e9c0-4c34-b57d-8b62b92ff95d")
+		)
+		(pin "1"
+			(uuid "2ca51c3b-f046-44cc-b44b-06759a9a7d25")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -21311,13 +23207,145 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 66.04 609.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "430f9d08-1d2e-4ee8-a671-369918e2de26")
+		(property "Reference" "#PWR0135"
+			(at 69.85 609.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 63.754 609.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 609.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 609.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 66.04 609.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5344112a-a756-474e-afce-46d96feaaba8")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 66.04 302.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "434b3373-7d52-4f7e-aeed-83b9392d0cc4")
+		(property "Reference" "#PWR0115"
+			(at 69.85 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 63.754 302.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 66.04 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60b5d3d1-110b-4eb5-8c1c-bb31b12d5f5e")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 104.14 299.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "43c99dd8-12a6-412b-be63-99496846221d")
 		(property "Reference" "J11"
@@ -21747,6 +23775,103 @@
 		)
 	)
 	(symbol
+		(lib_id "__sws_jlpcb:R0")
+		(at 45.72 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4799c4af-c82a-4cc9-b588-f8750866bb5b")
+		(property "Reference" "R1"
+			(at 48.26 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R0"
+			(at 48.26 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 45.72 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110251730_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168.pdf"
+			(at 45.72 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 45.72 53.34 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "UNI-ROYAL(Uniroyal Elec)"
+			(at 45.72 53.34 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFGPN" "0402WGF0000TCE"
+			(at 45.72 53.34 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c29cfdd-fb9c-49de-9070-8b68b5b09a12")
+		)
+		(pin "1"
+			(uuid "bfca2cbf-cf5c-478d-bf3c-94bce43d2494")
+		)
+		(instances
+			(project ""
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "__easyeda2kicad:XL-1010RGBC-WS2812B")
 		(at 259.08 274.32 0)
 		(unit 1)
@@ -21993,6 +24118,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 72.39 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "494a6d4b-f74e-4bbe-a579-39a75a54617b")
+		(property "Reference" "C4"
+			(at 72.898 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 68.326 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 73.3552 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 72.39 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 72.39 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 72.39 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aeb43177-d8be-4837-9d2d-53a343114d9f")
+		)
+		(pin "1"
+			(uuid "5860d41a-253f-49be-867b-96588afa3b1c")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "__easyeda2kicad:XL-1010RGBC-WS2812B")
 		(at 419.1 274.32 0)
 		(unit 1)
@@ -22069,6 +24272,84 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "U100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 64.77 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a020297-8e19-4bea-a2b3-df855617129d")
+		(property "Reference" "C11"
+			(at 65.024 198.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 60.452 202.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 65.7352 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 64.77 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 64.77 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e597cbc-50ba-4be4-a684-666493a62b16")
+		)
+		(pin "1"
+			(uuid "fd2326cd-bac0-4a27-95ae-ec727a23f28d")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -22831,6 +25112,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 66.04 346.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c8c540c-fd86-4850-8eda-51cd307fa135")
+		(property "Reference" "C21"
+			(at 66.294 344.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 61.722 348.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 67.0052 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 66.04 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 66.04 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "58a3e620-c7d0-46e0-9ef9-a4259099dd3b")
+		)
+		(pin "1"
+			(uuid "57b1a04d-50a7-4608-a997-3633267c52f9")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "__easyeda2kicad:XL-1010RGBC-WS2812B")
 		(at 259.08 457.2 0)
 		(unit 1)
@@ -23137,6 +25496,72 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "U217")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 421.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fb9cb1b-055f-4685-b1a5-fb908e7de920")
+		(property "Reference" "#PWR0122"
+			(at 59.69 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.754 421.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ab8209c-58e0-4997-bb5e-eca07a82720d")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -23472,6 +25897,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 66.04 452.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51f25ca3-1525-4338-8071-3acea7541151")
+		(property "Reference" "#PWR0124"
+			(at 59.69 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.754 452.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a54e610-8ed6-4754-9cd0-6fe1b7899fe2")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 88.9 227.33 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23619,13 +26110,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 66.04 298.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5420be95-d327-4239-b2b8-fa07cc71672c")
+		(property "Reference" "C17"
+			(at 66.294 296.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 61.722 300.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 67.0052 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 66.04 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 66.04 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b95e03b1-fc11-49a3-851e-3a25750b5b48")
+		)
+		(pin "1"
+			(uuid "010799a0-1243-44c1-bb85-ce731742bf4f")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 104.14 556.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "54bbca44-c4ff-425a-a519-dd89f410ae1f")
 		(property "Reference" "J19"
@@ -24245,6 +26814,84 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "U208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 66.04 580.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57e9ecc8-efae-4e4c-9262-5d64c1bfe5fd")
+		(property "Reference" "C35"
+			(at 66.294 578.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 61.722 582.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 67.0052 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 66.04 580.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 580.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 66.04 580.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "062708dd-16a7-42a7-a71c-7e671adf9ab7")
+		)
+		(pin "1"
+			(uuid "876ce163-11d4-4315-9f93-dfdf41712d73")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -24957,13 +27604,79 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 66.04 515.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d42920e-48e0-4b39-ba2a-a61f303a1390")
+		(property "Reference" "#PWR0129"
+			(at 69.85 515.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 63.754 515.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 515.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 515.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 66.04 515.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "810bcaaf-8430-4d7f-a619-8f332a76d6d8")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 104.14 581.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5d4e1eda-895b-4b07-81d7-496417bf676d")
 		(property "Reference" "J22"
@@ -25201,7 +27914,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5ed296d7-9274-40cc-a76f-5c76e2922aa3")
 		(property "Reference" "J1"
@@ -25263,6 +27976,72 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 66.04 350.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f0a6928-6204-4206-938b-de8cf6866110")
+		(property "Reference" "#PWR0119"
+			(at 69.85 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 63.754 350.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 66.04 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a92708e-e2ce-460e-b9e1-3974ba1522e2")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -25345,6 +28124,72 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "U186")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 45.72 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f343f3c-dcc1-43f4-9748-fc61ed7559e7")
+		(property "Reference" "#PWR0137"
+			(at 45.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 45.72 48.514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 45.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80985fe8-547a-42c6-9d87-75c88411d4dc")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -25735,7 +28580,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "621dde94-6c12-4abd-9051-077af3693dad")
 		(property "Reference" "J13"
@@ -26361,6 +29206,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 62.23 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6672c995-6bc7-4044-81dd-8b949e78de52")
+		(property "Reference" "C3"
+			(at 62.484 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 57.912 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 63.1952 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 62.23 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 62.23 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7fc03d7c-3f6c-44d2-86cd-9276c671738f")
+		)
+		(pin "1"
+			(uuid "6d2102e1-9426-4a00-b5ad-894e2580c003")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 109.22 551.18 90)
 		(unit 1)
@@ -26657,6 +29580,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 72.39 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "6b7ce5fd-3f51-42ab-a51e-174439b65be8")
+		(property "Reference" "C6"
+			(at 72.898 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 68.326 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 73.3552 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 72.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 72.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 72.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3fda087e-43ae-469f-9412-c40c1c2b8b8b")
+		)
+		(pin "1"
+			(uuid "10bcae4e-7b6b-4fe6-bc1c-d697e64b5bc0")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 92.71 552.45 90)
 		(unit 1)
@@ -26881,6 +29882,84 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "U215")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 66.04 321.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cd89670-da6c-4c71-a201-0ba81d1fd204")
+		(property "Reference" "C19"
+			(at 66.294 319.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 61.722 323.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 67.0052 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 66.04 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 66.04 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f2927059-5754-429c-9e5f-3ab22fe911c7")
+		)
+		(pin "1"
+			(uuid "fde85bce-0f3b-48ea-a01c-716488a1af66")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -27578,6 +30657,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 66.04 480.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73296163-d2bc-46c8-baba-cc3edd3f8318")
+		(property "Reference" "#PWR0126"
+			(at 59.69 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.754 480.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d1211fa-25bb-40ab-8724-54e047721436")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 160.02 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27703,6 +30848,150 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 66.04 425.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "734c4317-0ef7-4749-95fc-a6bb121a17f5")
+		(property "Reference" "C25"
+			(at 66.294 423.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 61.722 427.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 67.0052 429.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 66.04 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 66.04 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3540a70c-52c2-4857-8400-172e9241fc4f")
+		)
+		(pin "1"
+			(uuid "87e145e5-4878-4103-9063-bfa0755db1b5")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 66.04 459.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74a4843d-49e9-4177-a652-29fea864ad47")
+		(property "Reference" "#PWR0125"
+			(at 69.85 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 63.754 459.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 66.04 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "032f225e-ea3f-4a43-8d11-af98e3de9250")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -28109,7 +31398,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "766fbb50-fee8-438a-9a3a-dc03d15401e3")
 		(property "Reference" "J17"
@@ -28237,6 +31526,138 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "J27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "775c8890-222d-41a3-a6be-a5a49165a295")
+		(property "Reference" "#PWR0102"
+			(at 55.88 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.944 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "821ca68d-335a-4f9a-9729-21b761934882")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 67.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77a8a67e-7299-41b1-842d-454969997115")
+		(property "Reference" "#PWR0100"
+			(at 55.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.944 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84a12132-eb86-4cd4-abc0-2db0e10de8cc")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -28637,6 +32058,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 62.23 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c37a7db-3d27-4ad9-88e3-be3a04de418a")
+		(property "Reference" "#PWR0103"
+			(at 66.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 59.944 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 62.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5f71da8-6f59-4258-a238-2f102a461d8e")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "__easyeda2kicad:XL-1010RGBC-WS2812B")
 		(at 205.74 347.98 0)
 		(unit 1)
@@ -28713,6 +32200,72 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "U143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 66.04 584.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d25f74e-c0bd-4b74-898e-35b492f50f4c")
+		(property "Reference" "#PWR0133"
+			(at 69.85 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 63.754 584.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 66.04 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47252cf0-a87a-4a29-befa-3b9d9c99eb96")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -29459,6 +33012,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 64.77 196.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8042bd4a-3393-4d0c-849d-4134c475c80c")
+		(property "Reference" "#PWR0108"
+			(at 58.42 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.484 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8825d491-8ecb-48b6-b170-1635593d7139")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 601.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "805e638c-f0ec-4541-b4cf-4afc61a6bad2")
+		(property "Reference" "#PWR0134"
+			(at 59.69 601.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.754 601.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 601.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 601.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 601.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1691f64c-1812-4dea-bdda-2a1b6421979c")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "__easyeda2kicad:XL-1010RGBC-WS2812B")
 		(at 365.76 347.98 0)
 		(unit 1)
@@ -29711,7 +33396,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "81f222f4-1698-4e77-9c5c-7295dc3256c3")
 		(property "Reference" "J4"
@@ -29921,6 +33606,72 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "U119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 66.04 275.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82ec7982-b910-49b9-a7a9-cf6d8424964b")
+		(property "Reference" "#PWR0113"
+			(at 69.85 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 63.754 275.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 66.04 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "998ad477-8cba-4cd1-8d02-91723557b70a")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -30551,6 +34302,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 66.04 294.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8883b02b-5921-4538-8607-3b0ddcec0378")
+		(property "Reference" "#PWR0114"
+			(at 59.69 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.754 294.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7ea7190-e386-40d3-a2d6-fed85647355b")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "__easyeda2kicad:XL-1010RGBC-WS2812B")
 		(at 189.23 175.26 0)
 		(unit 1)
@@ -30709,6 +34526,72 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "U249")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 66.04 556.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89b57398-5af3-4c6b-8dae-1defd2804001")
+		(property "Reference" "#PWR0131"
+			(at 69.85 556.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 63.754 556.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 556.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 556.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 66.04 556.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a2ae55f-c1f3-4465-8b86-19a91db4fe8a")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -31033,7 +34916,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8b6dd0cd-94d7-4101-a348-c53c15547877")
 		(property "Reference" "J12"
@@ -31183,6 +35066,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 45.72 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8dcd5a7a-f0d2-4a25-837d-b6e093b3846b")
+		(property "Reference" "#PWR0136"
+			(at 45.72 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 45.72 58.166 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 45.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28305182-454f-4262-b30d-f6be2d853b9e")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "__easyeda2kicad:XL-1010RGBC-WS2812B")
 		(at 472.44 325.12 0)
 		(unit 1)
@@ -31259,6 +35208,84 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "U135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 62.23 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f2b2853-93f5-4676-b4d4-9a0bf29f84a6")
+		(property "Reference" "C1"
+			(at 62.484 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 57.912 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 63.1952 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 62.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 62.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6fba1f1d-9f77-4675-9e55-f0a4bc628efa")
+		)
+		(pin "1"
+			(uuid "6c479dd0-4ce3-4756-b861-b00e5f73f3f0")
+		)
+		(instances
+			(project ""
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -31677,6 +35704,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 66.04 317.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9678b28d-6f72-4c14-952b-0b558b806434")
+		(property "Reference" "#PWR0116"
+			(at 59.69 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.754 317.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d0c6ff4-350a-4aa4-891a-9d092a81d699")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "__easyeda2kicad:XL-1010RGBC-WS2812B")
 		(at 383.54 514.35 0)
 		(unit 1)
@@ -31831,7 +35924,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "974aecdd-2295-4d32-a979-591199faa3b6")
 		(property "Reference" "J16"
@@ -32227,6 +36320,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 76.2 605.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "9a814992-4145-46f2-858c-af40af9131b3")
+		(property "Reference" "C38"
+			(at 76.708 603.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 72.136 607.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 77.1652 609.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 76.2 605.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 76.2 605.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 76.2 605.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aad3471b-83a3-45bf-8944-d36a4de6f216")
+		)
+		(pin "1"
+			(uuid "3e6bc14d-d5e5-4249-aabe-d49dffa6206e")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 153.67 40.64 0)
 		(unit 1)
@@ -32523,6 +36694,150 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 66.04 342.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d5cb001-6685-4851-9205-c7486a260a85")
+		(property "Reference" "#PWR0118"
+			(at 59.69 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.754 342.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a6d9195-b423-4be5-be8b-3a3d7ad7dbf9")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 66.04 271.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9dddc090-7a1e-4dcc-8ffa-067499aa2086")
+		(property "Reference" "C15"
+			(at 66.294 269.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 61.722 273.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 67.0052 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 66.04 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 66.04 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7937da3d-6943-4460-8f78-28e59d49464d")
+		)
+		(pin "1"
+			(uuid "fc7a98e9-467c-4168-a58e-084a930180b1")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "__easyeda2kicad:XL-1010RGBC-WS2812B")
 		(at 171.45 203.2 0)
 		(unit 1)
@@ -32665,6 +36980,72 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 64.77 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e45ff9e-1547-47ac-87c7-15fb453d98e9")
+		(property "Reference" "#PWR0107"
+			(at 68.58 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 62.484 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 64.77 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eea819e7-379d-4308-ac93-dc2d07e06faf")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -33379,6 +37760,162 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 76.2 346.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "a1fd0a84-84d5-411d-9804-69baf2a296fa")
+		(property "Reference" "C22"
+			(at 76.708 344.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 72.136 348.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 77.1652 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 76.2 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 76.2 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 76.2 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5b69e2c2-5d2d-4512-9a11-0fa01bff069c")
+		)
+		(pin "1"
+			(uuid "26a1b2f8-6d86-4f9e-a4c0-df41e47e768e")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 74.93 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "a25210b9-17cd-4688-82ef-bea4eef6a0a0")
+		(property "Reference" "C14"
+			(at 75.438 226.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 70.866 230.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 75.8952 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 74.93 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 74.93 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 74.93 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0a0b24b8-d572-417f-910a-7d04fbde6063")
+		)
+		(pin "1"
+			(uuid "683278d2-6838-434a-98ed-e5dc2eed4cdb")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 156.21 464.82 0)
 		(unit 1)
@@ -33439,6 +37976,72 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 508 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a390b0b7-6c28-4f53-b24d-f43446f4f1b2")
+		(property "Reference" "#PWR0128"
+			(at 59.69 508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.754 508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce9561f0-45c4-4c39-bb70-93a602067c70")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -33521,6 +38124,150 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "U115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 66.04 429.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a41d5628-0f5b-42b5-aa87-b39a4b2d4e50")
+		(property "Reference" "#PWR0123"
+			(at 69.85 429.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 63.754 429.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 429.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 429.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 66.04 429.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a00237cc-090b-4f28-9c6f-522e937b9601")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 76.2 298.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "a469c893-33fb-4891-a8ca-2a77ad1ef7d2")
+		(property "Reference" "C18"
+			(at 76.708 296.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 72.136 300.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 77.1652 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 76.2 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 76.2 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 76.2 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b50af1e8-3762-46e0-8ef1-3d12a550131b")
+		)
+		(pin "1"
+			(uuid "6fc0551d-01dc-49c7-95dd-b4a90bb80538")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -33937,6 +38684,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 62.23 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6cc6022-6c98-437b-b70f-d4717532ec95")
+		(property "Reference" "C5"
+			(at 62.484 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 57.912 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 63.1952 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 62.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 62.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3c2523d9-f6f7-4445-bb82-c599dcd8d963")
+		)
+		(pin "1"
+			(uuid "71cce9c6-cae0-4c3c-b4c2-a5f302825bd1")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "__easyeda2kicad:XL-1010RGBC-WS2812B")
 		(at 312.42 486.41 0)
 		(unit 1)
@@ -34107,7 +38932,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "aad141c1-6a59-462c-824f-e0aa86772777")
 		(property "Reference" "J8"
@@ -34251,6 +39076,72 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "U247")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 548.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "adaabcc9-7259-49d3-96b1-d337cc15d0f0")
+		(property "Reference" "#PWR0130"
+			(at 59.69 548.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.754 548.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 548.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 548.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 548.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbaea3c8-14f8-4b55-a9d6-2c6685235ae7")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -34405,6 +39296,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 76.2 455.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "b0176c26-ea5e-4847-a96c-0ccd5d8499b3")
+		(property "Reference" "C28"
+			(at 76.708 453.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 72.136 457.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 77.1652 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 76.2 455.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 76.2 455.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 76.2 455.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4125a96b-01ad-4b81-acc1-0927073269fe")
+		)
+		(pin "1"
+			(uuid "8f03fb4d-0e73-4b67-a129-bb8994207dad")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "__easyeda2kicad:XL-1010RGBC-WS2812B")
 		(at 223.52 556.26 0)
 		(unit 1)
@@ -34487,13 +39456,169 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 66.04 605.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0d64436-c149-4d4e-834b-0d0d3f9bd8a5")
+		(property "Reference" "C37"
+			(at 66.294 603.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 61.722 607.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 67.0052 609.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 66.04 605.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 605.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 66.04 605.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d035761-826b-4c24-9ca7-9911ad5d39a5")
+		)
+		(pin "1"
+			(uuid "d6d1fa21-df1e-439d-9e44-5cff0de099b8")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 76.2 271.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "b0e806e8-7e5e-428b-b771-d74ed180c15d")
+		(property "Reference" "C16"
+			(at 76.708 269.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 72.136 273.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 77.1652 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 76.2 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 76.2 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 76.2 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb99701c-0076-4399-9030-fc0da8d9948f")
+		)
+		(pin "1"
+			(uuid "f53852c7-cccc-464b-aae2-f84bdce280e4")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 102.87 143.51 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b16b14d8-4125-4765-b103-739e86be9871")
 		(property "Reference" "J6"
@@ -34555,6 +39680,72 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 64.77 204.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2534f73-bec4-49c0-aa4b-7f946c41b2fe")
+		(property "Reference" "#PWR0109"
+			(at 68.58 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 62.484 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 64.77 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bc39ec7-38be-4e8a-8c47-2ae0d7d95f98")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -34731,7 +39922,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b39eba5a-207c-4d48-9a81-b7d2bcba1cba")
 		(property "Reference" "J7"
@@ -35039,6 +40230,84 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "U159")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 76.2 321.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "b70c57df-bea7-4925-8650-9260af6d1dd5")
+		(property "Reference" "C20"
+			(at 76.708 319.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 72.136 323.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 77.1652 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 76.2 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 76.2 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 76.2 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3df444a4-6f21-400c-9e4d-caa710aa7402")
+		)
+		(pin "1"
+			(uuid "cdb49fd5-5a21-4bd1-b02b-b97b71ce4d8b")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -35625,7 +40894,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bb852d71-1a30-40f4-879e-c8e121fe3604")
 		(property "Reference" "J10"
@@ -36318,6 +41587,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 76.2 511.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "c0da82c4-e6d6-4952-8860-285055a5462d")
+		(property "Reference" "C32"
+			(at 76.708 509.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 72.136 513.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 77.1652 515.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 76.2 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 76.2 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 76.2 511.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "683690be-bf4e-401c-99c2-8c38d82a66d6")
+		)
+		(pin "1"
+			(uuid "5f00aa42-c9d4-4840-a153-8425441f2903")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "__easyeda2kicad:XL-1010RGBC-WS2812B")
 		(at 259.08 581.66 0)
 		(unit 1)
@@ -36482,6 +41829,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 72.39 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "c23608b6-50bb-447e-99ac-bcaee0ece03b")
+		(property "Reference" "C2"
+			(at 72.898 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 68.326 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 73.3552 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 72.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 72.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 72.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c3fb6fd8-07e5-4b06-b149-6d4ef8b84eed")
+		)
+		(pin "1"
+			(uuid "78dcfe88-8a8b-4424-bade-e57f641e6f17")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "__easyeda2kicad:XL-1010RGBC-WS2812B")
 		(at 152.4 486.41 0)
 		(unit 1)
@@ -36558,6 +41983,72 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "U207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 66.04 325.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2b45fd2-b684-4aa4-8a1c-78c44a45fccc")
+		(property "Reference" "#PWR0117"
+			(at 69.85 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 63.754 325.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 66.04 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76d6c52e-08d7-4a18-a1a0-8bceaf2f892a")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -36728,6 +42219,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 63.5 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3d9fb5a-f87c-406a-8e6c-6ac58c2eb300")
+		(property "Reference" "C7"
+			(at 63.754 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 59.182 143.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 64.4652 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 63.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 63.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 63.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "22591e95-767c-42e1-ba78-c29d6a6d0ce9")
+		)
+		(pin "1"
+			(uuid "3682c1c0-7232-424e-a52b-a0856b676469")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "__easyeda2kicad:XL-1010RGBC-WS2812B")
 		(at 152.4 299.72 0)
 		(unit 1)
@@ -36816,7 +42385,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c6846363-b5ee-49c7-a070-ed2b4dd384f6")
 		(property "Reference" "J3"
@@ -37344,6 +42913,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 76.2 372.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "cbd5fb5b-2d89-4d95-9915-233c9fd6f24a")
+		(property "Reference" "C24"
+			(at 76.708 369.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 72.136 374.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 77.1652 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 76.2 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 76.2 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 76.2 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "61ba728b-9cd0-4eed-896f-5476d61c1c13")
+		)
+		(pin "1"
+			(uuid "d9de1a3f-86d5-4080-bd53-28825d3ea800")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "__easyeda2kicad:XL-1010RGBC-WS2812B")
 		(at 205.74 325.12 0)
 		(unit 1)
@@ -37432,7 +43079,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cc404372-14fa-45e2-9f8a-fef8fc9d6298")
 		(property "Reference" "J15"
@@ -37494,6 +43141,72 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccffdd5e-5004-4a54-b53d-ac928d7e9914")
+		(property "Reference" "#PWR098"
+			(at 55.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.944 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "311df66a-eeb7-4f6f-9e07-02aef0e32c8b")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -38068,6 +43781,72 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "U80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 63.5 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d11af462-1529-4c66-9bff-3d03f479653d")
+		(property "Reference" "#PWR0105"
+			(at 67.31 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 61.214 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 63.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70c0cb38-d808-4967-924a-fe961f24c3de")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -39224,6 +45003,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 73.66 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "dc455893-2970-4398-80ac-d20f9e60d875")
+		(property "Reference" "C8"
+			(at 74.168 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 69.596 143.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 74.6252 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 73.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 73.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 73.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2db126a8-374c-404a-b1b7-592a43ccff17")
+		)
+		(pin "1"
+			(uuid "7f0c3f0f-738f-4291-9d49-b6832e5b67de")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 92.71 483.87 90)
 		(unit 1)
@@ -39526,7 +45383,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "df93d3d5-8eff-424a-88a6-7c9b8565e7f5")
 		(property "Reference" "J5"
@@ -39670,6 +45527,84 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "U138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 76.2 425.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "e0b19efc-0796-4778-b034-1f6d004b4443")
+		(property "Reference" "C26"
+			(at 76.708 423.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 72.136 427.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 77.1652 429.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 76.2 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 76.2 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 76.2 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0e42a84b-e4ca-4993-b7f7-db5cb1673bcf")
+		)
+		(pin "1"
+			(uuid "c7145ad4-4145-4b62-9bae-9d0f25fffc31")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -40202,6 +46137,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 74.93 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "e30e0a9e-cb0b-49a4-a495-703171a85667")
+		(property "Reference" "C12"
+			(at 75.438 198.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 70.866 202.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 75.8952 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 74.93 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 74.93 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 74.93 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "22c4962c-9319-4bab-b977-e81a0803e02a")
+		)
+		(pin "1"
+			(uuid "c5806bc2-2ee5-4457-887b-9c06842efe3c")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "__easyeda2kicad:XL-1010RGBC-WS2812B")
 		(at 171.45 231.14 0)
 		(unit 1)
@@ -40646,6 +46659,150 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 66.04 455.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6877ecc-6efb-4860-a2a6-2c5952e6c500")
+		(property "Reference" "C27"
+			(at 66.294 453.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 61.722 457.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 67.0052 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 66.04 455.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 455.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 66.04 455.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e79dba2-9765-4329-b717-e6699b5552a8")
+		)
+		(pin "1"
+			(uuid "ee55db99-28b6-4c8f-9f61-e1a7de07fd51")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 66.04 375.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e695b6b3-f1d9-4644-bd6b-d3bad834fd76")
+		(property "Reference" "#PWR0121"
+			(at 69.85 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 63.754 375.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 66.04 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19475e92-bdfb-44b5-bd4e-a21ee55b2e39")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "__easyeda2kicad:XL-1010RGBC-WS2812B")
 		(at 241.3 457.2 0)
 		(unit 1)
@@ -40936,6 +47093,84 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "U178")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 66.04 483.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea787ce3-79b4-41ca-83d9-966a48624323")
+		(property "Reference" "C29"
+			(at 66.294 481.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 61.722 485.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 67.0052 487.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 66.04 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 66.04 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53f6a00a-2003-4362-baf2-ed0b8a37bc54")
+		)
+		(pin "1"
+			(uuid "ff7e3424-24b9-413e-a032-c352144b9487")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -41540,7 +47775,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ee63480c-72d8-41c2-98a4-61bbed132d26")
 		(property "Reference" "J18"
@@ -41602,6 +47837,84 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 74.93 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "ee7f5ded-f34b-421a-a418-3ab94dbe6113")
+		(property "Reference" "C10"
+			(at 75.438 171.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V 10uF"
+			(at 70.866 176.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 75.8952 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702"
+			(at 74.93 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 74.93 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19702"
+			(at 74.93 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b5b1b9b7-d053-4471-9345-11a922d99d59")
+		)
+		(pin "1"
+			(uuid "d396effb-0034-463d-8e09-e000ed9966a9")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -41766,6 +48079,72 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "U76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 66.04 487.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f238fc87-cd4b-4737-aad3-f81262205bdf")
+		(property "Reference" "#PWR0127"
+			(at 69.85 487.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 63.754 487.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 487.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 487.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 66.04 487.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a824f75e-a372-48fc-8ca1-888a4f8bd9cb")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -42167,6 +48546,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 66.04 267.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4f2e3ab-9fb0-467f-a65a-64d8b86fb01e")
+		(property "Reference" "#PWR0112"
+			(at 59.69 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.754 267.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f5ef979-7c48-44ef-8798-f0a4236e98e1")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 107.95 422.91 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -42308,6 +48753,72 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "U37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 62.23 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f742e1b9-3fb0-44b8-b6a9-582408b62d37")
+		(property "Reference" "#PWR099"
+			(at 66.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 59.944 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 62.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbb8c0de-351f-46e4-89d5-6b28399e645d")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -42682,7 +49193,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f9a86c4b-fada-4475-bf7e-e6eb727cce87")
 		(property "Reference" "J9"
@@ -42744,6 +49255,72 @@
 			(project "constellation"
 				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 368.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa552dd3-c740-42be-81c2-2f6beacea872")
+		(property "Reference" "#PWR0120"
+			(at 59.69 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.754 368.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e25b987d-4f4a-451f-ae4a-7ec8e7f7fee3")
+		)
+		(instances
+			(project "constellation"
+				(path "/229662f1-9b1b-489a-be0e-c1566e80d332"
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
