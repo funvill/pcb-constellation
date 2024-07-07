@@ -11506,7 +11506,7 @@
 	)
 	(global_label "LED_Ursa_major"
 		(shape output)
-		(at 109.2525 427.9406 0)
+		(at 107.95 427.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11516,7 +11516,7 @@
 		)
 		(uuid "4da35c06-5f64-4109-8ea4-8bfe0cdb55d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.2961 427.9406 0)
+			(at 125.9936 427.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11814,7 +11814,7 @@
 	)
 	(global_label "LED_Serpens"
 		(shape input)
-		(at 109.2525 425.4006 0)
+		(at 107.95 425.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11824,7 +11824,7 @@
 		)
 		(uuid "6e3004da-79d3-43b2-8e0c-fb1b44f37a37")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.1514 425.4006 0)
+			(at 122.8489 425.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27644,7 +27644,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 109.2525 430.4806 270)
+		(at 107.95 430.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27652,7 +27652,7 @@
 		(dnp no)
 		(uuid "733c1aad-4b99-470c-8956-26e4ecd955ff")
 		(property "Reference" "#PWR066"
-			(at 105.4425 430.4806 0)
+			(at 104.14 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27661,7 +27661,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 111.5385 430.4806 90)
+			(at 110.236 430.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27670,7 +27670,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.2525 430.4806 0)
+			(at 107.95 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27679,7 +27679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.2525 430.4806 0)
+			(at 107.95 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27688,7 +27688,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 109.2525 430.4806 0)
+			(at 107.95 430.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37427,7 +37427,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 104.14 427.99 180)
+		(at 102.87 427.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37436,7 +37436,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc404372-14fa-45e2-9f8a-fef8fc9d6298")
 		(property "Reference" "J15"
-			(at 104.14 416.56 0)
+			(at 102.87 416.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37444,7 +37444,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 104.14 419.1 0)
+			(at 102.87 419.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37452,7 +37452,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 104.14 427.99 0)
+			(at 102.87 427.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37461,7 +37461,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 427.99 0)
+			(at 102.87 427.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37470,7 +37470,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 104.14 427.99 0)
+			(at 102.87 427.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42167,7 +42167,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.2525 422.8606 90)
+		(at 107.95 422.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42175,7 +42175,7 @@
 		(dnp no)
 		(uuid "f564d992-0b16-4689-833d-d088337b285a")
 		(property "Reference" "#PWR065"
-			(at 115.6025 422.8606 0)
+			(at 114.3 422.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42184,7 +42184,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.5385 422.8606 90)
+			(at 110.236 422.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42193,7 +42193,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.2525 422.8606 0)
+			(at 107.95 422.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42202,7 +42202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.2525 422.8606 0)
+			(at 107.95 422.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42211,7 +42211,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.2525 422.8606 0)
+			(at 107.95 422.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
